@@ -1,0 +1,48 @@
+.szoveg{
+    color: black;
+    font-family:sans-serif;
+    font-size: 18;
+    text-align:inherit
+}
+body{background-image: url(Monorhatter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main{ 
+
+    background-color: floralwhite;
+    border: solid 5px black;
+    padding: 0px;
+        
+}
+  @media only screen and (min-width: 600px)
+      {#main
+          {
+         margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+    }
+}
+#cim{
+    text-align: center;
+    font-size: 28;
+    font-weight: bold
+}
+
+
+td{
+    border:solid 5px black;
+    background-color: cyan
+
+
+}
+#kep{
+    float: right;
+    clear: left;
+    width: 20%;
+    border: 2px solid black;
+    margin-right: 5%;
+}

@@ -1,0 +1,51 @@
+.szoveg{
+    color: black;
+    font-family:sans-serif;
+    font-size: 18;
+    text-align:inherit
+}
+body{background-image: url(uszoda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main{ 
+
+    background-color: chocolate;
+    border: solid 5px black;
+    padding: 0px;
+        
+}
+  @media only screen and (min-width: 600px)
+      {#main
+          {
+         margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+    }
+}
+#cim{
+    text-align: center;
+    font-size: 28;
+    font-weight: bold
+}
+#kep{
+      float: right;
+    clear: both;
+    width: 20%;
+    margin: 2%;
+    border: 2px solid black;
+    
+}
+#kep2{
+    width: 40%;
+    margin: 2%;
+    border: 2px solid black;
+    
+}
+#kep3
+{
+    width: 55%;
+}
